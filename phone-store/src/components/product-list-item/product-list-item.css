@@ -1,0 +1,23 @@
+.product-list-item {
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.product-list-item img {
+    margin: 5px auto;
+    width: 60%;
+}
+
+
+
+.product-list-item .product-title {
+    margin: 5px;
+    font-size: 1.1rem;
+}
+
+.product-list-item .product-price {
+    font-size: 1.4rem;
+    margin: auto 5px 5px 5px;
+}
