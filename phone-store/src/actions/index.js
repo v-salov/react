@@ -47,13 +47,6 @@ const fetchProducts = (productstoreService, dispatch) => () => {
     .catch((err) => dispatch(productsError(err)));
 };
 
-// const fetchBooksNew = (bookstoreService) => () => (dispatch) => {
-// 	dispatch(productsRequested());
-// 	bookstoreService.getProducts()
-// 		.then((data) => dispatch(productsLoaded(data)))
-// 		.catch((err) => dispatch(productsError(err)));
-// };
-
 export {
   fetchProducts
 };
