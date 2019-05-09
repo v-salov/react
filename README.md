@@ -1,3 +1,3 @@
 # This is my React test application
- npm i
- npm run start
+# npm i
+# npm run start
